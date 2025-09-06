@@ -181,6 +181,15 @@
             android:layout_marginLeft="12dp"/>
     </LinearLayout>
 
+    <!-- Debug Button -->
+    <Button
+        android:id="@+id/btnDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Debug Screen"
+        android:layout_marginTop="12dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
     <!-- Recent Sessions Title -->
     <TextView
         android:layout_width="wrap_content"

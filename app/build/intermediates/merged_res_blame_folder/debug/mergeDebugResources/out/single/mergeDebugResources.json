@@ -1,31 +1,31 @@
 [
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable_ic_play_arrow.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable\\ic_play_arrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.neuropulse.app-debug-35:/layout_activity_debug.xml.flat",
+        "source": "com.neuropulse.app-main-37:/layout/activity_debug.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\layout_activity_debug.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\layout\\activity_debug.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable_ic_monitor.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable\\ic_monitor.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
@@ -40,6 +40,10 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable-xxhdpi_ic_monitor.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable-xxhdpi\\ic_monitor.png"
+    },
+    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -48,20 +52,8 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable-xhdpi_ic_monitor.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable-xhdpi\\ic_monitor.png"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -76,12 +68,12 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\layout_item_session.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\layout\\item_session.xml"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -92,20 +84,24 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable-mdpi_ic_monitor.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable-mdpi\\ic_monitor.png"
+    },
+    {
+        "merged": "com.neuropulse.app-debug-35:/layout_item_session.xml.flat",
+        "source": "com.neuropulse.app-main-37:/layout/item_session.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable-hdpi_ic_monitor.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable-hdpi\\ic_monitor.png"
+    },
+    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-hdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -116,31 +112,15 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable-xxxhdpi_ic_monitor.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable-xxxhdpi\\ic_monitor.png"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-debug-35:\\drawable_ic_pause.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\8.10.2\\com.neuropulse.app-main-37:\\drawable\\ic_pause.xml"
-    },
-    {
-        "merged": "com.neuropulse.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.neuropulse.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     }
 ]

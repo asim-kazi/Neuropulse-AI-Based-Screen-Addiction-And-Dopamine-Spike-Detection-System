@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\8.10.2\transforms\149b1ee956b531a509b1145f23af4b93\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\HP\.gradle\caches\8.10.2\transforms\a5d657ec6f2a630d75229691d2f8bd86\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\HP\.gradle\caches\8.10.2\transforms\d02ee5393484bcdc4dd9bf86ba9308f6\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -80,9 +80,17 @@ ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:10:5-11:47
 		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:11:9-44
 	android:name
 		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:10:22-75
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:13:22-65
 application
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:13:5-67:19
-INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:13:5-67:19
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:15:5-75:19
+INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:15:5-75:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\8.10.2\transforms\149b1ee956b531a509b1145f23af4b93\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\8.10.2\transforms\149b1ee956b531a509b1145f23af4b93\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\HP\.gradle\caches\8.10.2\transforms\d02ee5393484bcdc4dd9bf86ba9308f6\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -106,87 +114,97 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\HP\.gradle\caches\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\HP\.gradle\caches\8.10.2\transforms\aeba82f2e493eae4562e1ba625a3f9d5\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
 		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:18:9-35
-	android:label
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:16:9-35
 	android:roundIcon
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:17:9-48
-	android:icon
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:15:9-43
-	android:allowBackup
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:14:9-35
-	android:theme
 		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:21:9-48
 activity#com.neuropulse.app.MainActivity
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:22:9-29:20
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:launchMode
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:27:13-43
 	android:exported
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:25:13-28:29
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.neuropulse.app.DebugActivity
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:35:9-38:58
+	android:parentActivityName
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:38:13-55
+	android:exported
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:36:13-42
 service#com.neuropulse.app.UsageMonitorService
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:32:9-36:56
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:41:9-45:56
 	android:enabled
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:34:13-35
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:43:13-35
 	android:exported
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:44:13-37
 	android:foregroundServiceType
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:36:13-53
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:45:13-53
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:33:13-48
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:42:13-48
 service#com.neuropulse.app.SpikeDetectionService
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:39:9-43:56
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:48:9-51:40
 	android:enabled
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:41:13-35
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:42:13-37
-	android:foregroundServiceType
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:43:13-53
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:40:13-50
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:49:13-50
 service#com.neuropulse.app.NLService
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:46:9-54:19
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:54:9-62:19
 	android:label
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:48:13-59
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:56:13-59
 	android:exported
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:58:13-36
 	android:permission
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:49:13-87
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:57:13-87
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:47:13-38
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:55:13-38
 intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:51:13-53:29
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:59:13-61:29
 action#android.service.notification.NotificationListenerService
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:52:17-99
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:60:17-99
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:52:25-96
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:60:25-96
 receiver#com.neuropulse.app.UnlockReceiver
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:57:9-65:20
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:65:9-73:20
 	android:enabled
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:59:13-35
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:67:13-35
 	android:exported
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:58:13-43
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:66:13-43
 intent-filter#action:name:android.intent.action.SCREEN_ON+action:name:android.intent.action.USER_PRESENT
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:61:13-64:29
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:69:13-72:29
+	android:priority
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:69:28-51
 action#android.intent.action.USER_PRESENT
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:62:17-77
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:70:17-77
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:62:25-74
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:70:25-74
 action#android.intent.action.SCREEN_ON
-ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:63:17-74
+ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:71:17-74
 	android:name
-		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:63:25-71
+		ADDED from D:\Neuropulse2\app\src\main\AndroidManifest.xml:71:25-71
 uses-sdk
 INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Neuropulse2\app\src\main\AndroidManifest.xml

@@ -1337,6 +1337,7 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color gray
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1995,6 +1996,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2935,6 +2937,7 @@ drawable ic_launcher_background
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_monitor
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -3106,10 +3109,14 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnClearSessions
+id btnDebug
+id btnRefresh
 id btnReqNotif
 id btnReqUsage
 id btnStart
 id btnStop
+id btnTestSession
 id buttonPanel
 id cancel_button
 id center
@@ -3142,6 +3149,7 @@ id custom
 id customPanel
 id cut
 id date_picker_actions
+id debugInfo
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3236,6 +3244,7 @@ id line3
 id linear
 id listMode
 id list_item
+id liveStats
 id m3_side_sheet
 id marquee
 id masked
@@ -3348,6 +3357,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id report_drawn
 id reverseSawtooth
 id right
@@ -3463,8 +3473,12 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAddictionRisk
+id tvAppName
+id tvDuration
+id tvExtraInfo
 id tvMostUsed
 id tvStatus
+id tvTimestamp
 id tvTotalTime
 id unchecked
 id uniform
@@ -3597,6 +3611,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_debug
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3616,6 +3631,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_session
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
