@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Neuropulse</string>
     <string name="grant_usage">Grant Usage Access</string>
@@ -7,4 +6,5 @@
     <string name="status_idle">Status: Idle</string>
     <string name="status_monitoring">Status: Monitoring…</string>
     <string name="last_spike">Last Spike: None</string>
+    <string name="notification_listener_service">Notification Listener Service</string>
 </resources>

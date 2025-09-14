@@ -1,210 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:background="@color/background_light"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp">
+    android:orientation="vertical"
+    android:padding="24dp">
 
-    <!-- Toolbar -->
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/topAppBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/teal_700"
-        app:title="Neuropulse"
-        app:titleCentered="true"
-        app:titleTextColor="@android:color/white" />
-
-    <!-- Dashboard Cards Row -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp">
-
-        <!-- Total Screen Time Card -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="6dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/tvTotalTime"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0m"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Screen Time Today"
-                    android:textSize="14sp"
-                    android:textColor="@color/gray" />
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Most Used App Card -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="6dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/tvMostUsed"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="N/A"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Most Used App"
-                    android:textSize="14sp"
-                    android:textColor="@color/gray" />
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-    </LinearLayout>
-
-    <!-- Addiction Risk Card -->
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="6dp"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/tvAddictionRisk"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Low"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="@color/red" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Addiction Risk"
-                android:textSize="14sp"
-                android:textColor="@color/gray" />
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <!-- Status Text -->
     <TextView
-        android:id="@+id/tvStatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Monitoring: OFF"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp" />
-
-    <!-- Start / Stop Buttons -->
-    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp">
-
-        <Button
-            android:id="@+id/btnStart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Start Monitoring"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
-
-        <Button
-            android:id="@+id/btnStop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Stop Monitoring"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_marginLeft="12dp"/>
-    </LinearLayout>
-
-    <!-- Permissions Request Buttons -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp">
-
-        <Button
-            android:id="@+id/btnReqUsage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Grant Usage Access"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
-
-        <Button
-            android:id="@+id/btnReqNotif"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Grant Notification Access"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_marginLeft="12dp"/>
-    </LinearLayout>
-
-    <!-- Debug Button -->
-    <Button
-        android:id="@+id/btnDebug"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Open Debug Screen"
-        android:layout_marginTop="12dp"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
-
-    <!-- Recent Sessions Title -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Recent Sessions"
-        android:textSize="18sp"
+        android:text="Neuropulse"
+        android:textSize="32sp"
         android:textStyle="bold"
-        android:layout_marginTop="12dp" />
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#1976D2" />
 
-    <!-- RecyclerView for session list -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvSessions"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:clipToPadding="false"
-        android:padding="4dp"/>
+        android:layout_height="wrap_content"
+        android:text="Digital Wellness Monitoring"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Checking permissions..."
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        android:padding="16dp"
+        android:background="#F5F5F5"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/startMonitoringBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Monitoring"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:background="#1976D2"
+        android:textColor="#FFFFFF"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/debugBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Real-time Debug"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/permissionsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grant All Permissions"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app analyzes your usage patterns to help improve digital wellness. All data stays on your device."
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:layout_marginTop="24dp" />
+
 </LinearLayout>

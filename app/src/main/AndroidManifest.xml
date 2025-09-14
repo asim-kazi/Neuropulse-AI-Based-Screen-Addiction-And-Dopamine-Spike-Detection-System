@@ -3,57 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.neuropulse.app">
 
-    <!-- Permissions -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" tools:targetApi="34" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Required permissions for usage monitoring -->
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
-        tools:ignore="ProtectedPermissions" />  
-    <uses-permission android:name="android.permission.GET_TASKS" />
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- Service and system permissions -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Neuropulse"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Neuropulse">
+        android:theme="@style/Theme.Neuropulse"
+        tools:targetApi="31">
 
-        <!-- Main Launcher Activity -->
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:launchMode="singleTop">
+            android:theme="@style/Theme.Neuropulse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Debug Activity -->
+        <!-- Enhanced Debug Activity -->
         <activity
-            android:name=".DebugActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:name=".EnhancedDebugActivity"
+            android:label="Enhanced Debug Monitor"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
 
-        <!-- Service for monitoring app usage -->
+        <!-- Background Usage Monitor Service -->
         <service
-            android:name=".UsageMonitorService"
+            android:name=".services.UsageMonitorService"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="dataSync" />
 
-        <!-- Service for detecting spikes -->
-        <service
-            android:name=".SpikeDetectionService"
-            android:enabled="true"
-            android:exported="false" />
-
         <!-- Notification Listener Service -->
         <service
-            android:name=".NLService"
-            android:label="Neuropulse Notification Access"
+            android:name=".services.NotificationListener"
+            android:label="@string/notification_listener_service"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -61,14 +60,16 @@
             </intent-filter>
         </service>
 
-        <!-- Unlock Receiver -->
+        <!-- Boot Receiver to restart service after reboot -->
         <receiver
-            android:name=".UnlockReceiver"
+            android:name=".receivers.BootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter android:priority="1000">
-                <action android:name="android.intent.action.USER_PRESENT" />
-                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
             </intent-filter>
         </receiver>
 

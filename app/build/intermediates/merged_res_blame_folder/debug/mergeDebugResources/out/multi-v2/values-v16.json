@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.neuropulse.app-mergeDebugResources-33:/values-v16/values-v16.xml",
+            "outputFile": "com.neuropulse.app-mergeDebugResources-32:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\8.10.2\\transforms\\0e896f5010cee1e64ae38f4c335e8ad0\\transformed\\appcompat-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\8.10.2\\transforms\\f52ea448491545fcb6cea38dbe2a548e\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -12,6 +12,24 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\8.10.2\\transforms\\912d237f4cf0425b86b9217314fe5eb3\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
