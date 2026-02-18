@@ -131,8 +131,8 @@ Neuropulse-MegaProject/
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/Chinmay3775/Neuropulse-MegaProject.git
-   cd Neuropulse-MegaProject
+   git clone https://github.com/asim-kazi/Neuropulse-AI-Based-Screen-Addiction-And-Dopamine-Spike-Detection-System.git
+   cd Neuropulse-AI-Based-Screen-Addiction-And-Dopamine-Spike-Detection-System
    ```
 2. Open the project in Android Studio.
 3. If you have a `.tflite` model, place it in `app/src/main/assets/droom_model.tflite`.
@@ -289,7 +289,7 @@ This project is provided as a research & prototype reference. Include your prefe
 
 ## Contact
 
-keripalechinmay@gmail.com
+asimkazi8010@gmail.com | chinmaykeripale@gmail.com
 
 ---
 
